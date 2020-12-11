@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
+    <title>Learn Shape In the Wild</title>
+    <style>
+      .paper-title {
+        margin-top: 2em;
+        margin-bottom: 2em;
+      }
+      .authors-list .name {
+        font-size: 0.9em;
+        font-weight: bold;
+      }
+      .authors-list .affiliation {
+        font-size: 0.7em;
+      }
+      .paper-link a {
+        font-size: 2em;
+      }
+      .short-videos video {
+        padding: 1em;
+      }
+      .content-block {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+      }
+      .overview-video {
+        background-color: rgb(240,240,240);
+      }
+      .overview-video .video-col {
+        margin-left: 2em;
+        margin-right: 2em;
+      }
+      .video-row {
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      .geometric-consistency {
+        background-color: rgb(240,240,240);
+      }
+      .citation .description {
+        font-family: "Courier",monospace;
+        font-size: 16px;
+        white-space: pre;
+        text-align: left;
+      }
+      .additional-links {
+        background-color: #f4f4f4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="paper-title">
+        <!-- title -->
+        <div class="row">
+          <div class="col">
+            <h1 class="name text-center">Learning to Recover 3D Scene Shape from a Single Image</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Authors -->
+      <div class="authors-list">
+        <div class="row">
+          <div class="col">
+            <p class="name text-center">
+            <a href="https://scholar.google.com/citations?user=ZIf_rtcAAAAJ&hl=en"
+               target="_blank" >Wei Yin</a>*
+            </p>
+          </div>
+          <div class="col">
+            <p class="name text-center">
+            <a href="https://jimmie33.github.io/"
+               target="_blank">Jianming Zhang</a>*
+            </p>
+          </div>
+          <div class="col">
+            <p class="name text-center">
+            <a href="http://www.oliverwang.info/"
+               target="_blank">Oliver Wang</a>*
+            </p>
+          </div>
+          <div class="col">
+            <p class="name text-center">
+            <a href="https://sniklaus.com/welcome"
+               target="_blank">Simon Niklaus</a>
+            </p>
+          </div>
+          <div class="col">
+            <p class="name text-center">
+              <a href="https://mai-t-long.com/"
+                 target="_blank">Long Mai</a>
+            </p>
+          </div>
+          <div class="col">
+            <p class="name text-center">
+            <a target="_blank">Simon Chen</a>
+            </p>
+          </div>
+          <div class="col">
+            <p class="name text-center">
+              <a href="https://cshen.github.io/"
+                 target="_blank">Chunhua Shen</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="affiliation text-center">University of Adelaide</p>
+          </div>
+          <div class="col">
+            <p class="affiliation text-center">Adobe Research</p>
+          </div>
+          <div class="col">
+            <p class="affiliation text-center">Adobe Research</p>
+          </div>
+          <div class="col">
+            <p class="affiliation text-center">Adobe Research</p>
+          </div>
+          <div class="col">
+            <p class="affiliation text-center">Adobe Research</p>
+          </div>
+          <div class="col">
+            <p class="affiliation text-center">Adobe Research</p>
+          </div>
+          <div class="col">
+            <p class="affiliation text-center">University of Adelaide</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paper link -->
+      <div class="paper-link">
+        <div class="row">
+          <div class="col">
+            <p class="text-center">
+              <a href="https://arxiv.org/">[Paper]</a>
+              <a href="https://github.com/aim-uofa/depth/">[Github]</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+     <table width="1000" border="0" cellpadding="5" style="margin: 0 auto">
+	 <tr> 
+	     <td align="center" valign="center">
+	         <img src="data/1.gif" alt = "description here" width="300" height="300" /> 
+	     </td>
+             <td align="center" valign="center">
+                 <img src="data/2.gif" alt = "description here" width="300" height="300" /> 
+             </td>
+             <td align="center" valign="center">
+                 <img src="data/3.gif" alt = "description here" width="300" height="300" /> 
+             </td> 
+         </tr> 
+      </table>
+
+
+      <!-- Overview video -->
+      <div class="content-block overview-video">
+        <div class="row">
+          <div class="col">
+            <p class="title">
+              <h3>Overview</h3>
+            </p>
+          </div>
+        </div>
+        <div class="row video-row">
+          <div class="col video-col embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"
+                    allowfullscreen="allowfullscreen"
+                    src="https://cloudstor.aarnet.edu.au/plus/remote.php/webdav/Projects/MultiDepth/Web_Materials/web_video1.mp4"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Examples of depth prediction in the wild -->
+      <div class="content-block glo-interpolation">
+        <div class="row">
+          <div class="col">
+            <p class="title">
+              <h3>Depths examples</h3>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="description">
+            Some examples of the predicted depth maps.
+            </p>
+          </div>
+        </div>
+        <div class="row video-row">
+          <img src="data/depth.png" alt = "description here" width="1000" style="margin: 0 auto" /> 
+        </div>
+      </div>
+
+
+      <!-- Citation -->
+      <div class="content-block citation">
+        <div class="row">
+          <div class="col">
+            <p class="title">
+              <h3>Citation</h3>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="description">
+                      @inproceedings{??,
+                          author = {??},
+                          title = {{Learning to Recover 3D Scene Shape from a Single Image}},
+                          booktitle = {arXiv},
+                          year={2020}
+                      }
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+  </body>
+</html>
